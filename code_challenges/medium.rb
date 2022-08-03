@@ -9,7 +9,7 @@ magic_number = gets.to_i
 #this converts the input into an integer
 if magic_number % 3 == 0 && magic_number % 5 == 0
   #This is the modulo operator. It checks to see if there is any remainder after
-  #the number is divided by 3
+  #the number is divided by 3 and also by 5
   puts "FizzBuzz"
 elsif magic_number % 5 == 0
   puts "Buzz"
